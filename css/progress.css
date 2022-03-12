@@ -1,0 +1,291 @@
+
+
+
+
+#Habilidades {
+	width: 100%;
+}
+#Habilidades .centrar{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+} 
+
+ 
+
+#Habilidades .contenedor{
+	 list-style: none;
+  border: 3px solid white;
+	width:450px;
+	background:rgba(0,0,0,0.6);
+	border-radius: 20px;
+	border: 1px ridge white;
+	padding: 10px;
+	box-sizing: border-box;
+	margin:10px;
+	margin-top: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#Habilidades .contenedor li{
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 15px;
+
+
+}
+
+ .contenedor h1{
+ 	margin: auto;
+ 	width: 50%;
+	font-size: 1.4em;
+	text-align: center;
+	color: white;
+	padding: 10Px;
+	
+
+}
+
+
+
+.contenedor h3{
+	color: white;
+	width: 50%;
+	word-spacing: 10px;
+	margin-left: 20px;
+	
+	
+
+	
+}
+
+.contenedor  strong{
+	width: 50px;
+	background: rgba(255,255,255,0.8); 
+	color: black;
+	border-radius: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+	opacity: 0.2;
+}
+
+
+#Habilidades .contenedor .bar{
+	background: #353b84;
+	display: block;
+	height: 5px;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #2187e7b3;
+
+}
+
+.bar span{
+	height: 4px;
+	float: left;
+	background: #2187e7;
+	border-radius: 20%;
+	
+
+
+}
+#Habilidades .contenedor .Photoshop{
+	width: 85%;
+	animation: Photoshop 2s;
+
+
+}
+
+.Illustrator{
+	width: 85%;
+	animation: Illustrator 2s;
+}
+.AfterEffects{
+	width: 85%;
+	animation: AfterEffects 2s;
+}
+.html{
+	width: 60%;
+	animation: html 2s;
+}
+.Css{
+	width: 60%;
+	animation: Css 2s;
+}
+.blender{
+	width: 40%;
+	animation: blender 2s;
+	
+}
+
+@keyframes Photoshop {
+	0%{
+		width: 0%;
+
+	}
+	100%{
+		width: 85%
+	}
+} 
+@keyframes Illustrator {
+	0%{
+		width: 0%;
+
+	}
+	100%{
+		width:85%;
+	}
+} 
+@keyframes AfterEffects {
+	0%{
+		width: 0%;
+
+	}
+	100%{
+		width: 85%
+	}
+} 
+@keyframes html {
+	0%{
+		width: 0%;
+
+	}
+	100%{
+		width: 20%;
+	}
+} 
+@keyframes Css {
+	0%{
+		width: 0%;
+
+	}
+	100%{
+		width: 60%;
+	}
+} 
+@keyframes blender {
+	0%{
+		width: 0%;
+
+	}
+	100%{
+		width: 40%;
+	}
+} 
+
+.logoad{
+	margin: 30px auto;
+	width: 90px;
+	height:90px;
+	
+
+
+}
+
+.logoad figure{
+	margin: auto;
+	
+}
+
+.logoad figure img{
+	width: 100%;
+	height: 100%;
+	opacity: 0.1;
+	max-width: 100%;
+	box-sizing: border-box;
+	border: 2px solid rgb(29,29,29); 
+
+}
+
+
+
+/*personales*/
+.contenedor .creatividad{
+	width: 90%;
+	animation: creatividad 2s;
+
+
+}
+
+.trabajo{
+	width: 80%;
+	animation: trabajo 2s;
+}
+.dedicacion{
+	width: 90%;
+	animation: dedicacion 2s;
+}
+.comunicacion{
+	width: 80%;
+	animation: comunicacion 2s;
+}
+.Css{
+	width: 50%;
+	animation: Css 2s;
+}
+.compromiso{
+	width: 100%;
+	animation: compromiso 2s;
+	
+}
+
+@keyframes creatividad{
+	0%{
+		width: 0%;
+
+	}
+	100%{
+		width: 90%
+	}
+} 
+@keyframes trabajo{
+	0%{
+		width: 0%;
+
+	}
+	100%{
+		width:80%;
+	}
+} 
+@keyframes dedicacion {
+	0%{
+		width: 0%;
+
+	}
+	100%{
+		width: 90%
+	}
+} 
+@keyframes comunicacion{
+	0%{
+		width: 0%;
+
+	}
+	100%{
+		width: 80%;
+	}
+} 
+@keyframes compromiso {
+	0%{
+		width: 0%;
+
+	}
+	100%{
+		width: 100%;
+	}
+} 
+

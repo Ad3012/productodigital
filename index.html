@@ -1,0 +1,779 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Diseño Gráfico</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="keywords" content="Diseño Gráfico,Diseño Visual,Edición">
+
+<meta name="owner" content="Andrés Arévalo Durán>
+<meta name="author" content="Andrés Arévalo Durán>
+
+<script src="js/modernizr-custom.js">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="icon" href="favicon/ad.ico">
+<link rel="stylesheet" type="text/css" href="css/estilohv.css">
+<link rel="stylesheet" type="text/css" href="css/desing.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style2.css">
+<link rel="stylesheet" type="text/css" href="css/style3.css">
+<link rel="stylesheet" type="text/css" href="css/flechas/flecha.css">
+<link rel="stylesheet" type="text/css" href="css/progress.css">
+<link rel="stylesheet" type="text/css" href="css/animacionflecha.css">
+
+
+
+
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Marck+Script|Quattrocento+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/animate.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+</head>
+<body>
+   <header>
+    <div id="anclaje"></div>
+
+   	<h1 class="uno">
+   		<a href="index.html">
+   		<figure class="lobo"><img src="img/logo3.png"
+   		alt=""></figure>
+   		</a>
+   		<a href="index.html">Andrés 
+   		Arévalo Durán</a>
+   	</h1>
+<!--menu desplegable movil-->
+   	<nav id="ioMenu">
+   		<figure id="showMenu" class="ioMenuMovil"
+   		    onClick="displayMenu()">
+   			<img src="iconos/menu.png" alt=""></figure>
+
+   	    <div id="card_menu"><figure id="hideMenu" class="ioMenuMovil" 
+   	    	onClick="displayMenu()"><img src="iconos/exit.png" alt=""></figure>
+   	    <figure id="logo_menu"><img src="img/logomovil1.png" alt=""></figure>
+   	    <ul>
+   	    	<li><a onClick = "navSection('inicio')" href="#">Inicio</a></li>
+          <li><a onClick = "navSection('perfil')" href="#">Sobre Mí</a></li>
+          <li><a onClick = "navSection('curriculum')" href="#">Currículum</a></li>
+          <li><a onClick = "navSection('Portafolio')" href="#">Portafolio</a></li>
+   	    	<li><a onClick = "navSection('Habilidades')" href="#">Habilidades</a></li>
+          <li><a onClick = "navSection('Contactenos')" href="#">Animaciónes</a></li>
+   	    	<li><a onClick="displayFormContact('block')"href="#">Contactenos</a></li>
+   	     </ul>
+   	    </div>
+
+   	</nav>
+<!--botones laterales-->
+    <div id="prev_section" onClick="displaySection('next')"><img src="iconos/next.png"></div>
+    <div id="next_section"onClick="displaySection('prev')"><img src="iconos/prev.png"></div>
+
+</header>
+
+ <!--paginas del sitio-->
+         <div id="slider">
+         
+          <section class="slide" id="inicio" style="display: block">
+            <div class="facepage">
+          
+          <div class="mainanimation">
+             <div id="particles-js"></div>
+
+          </div>  
+          
+          <div class="mainlogo">
+
+            <h2> <strong>Diseño Gráfico </strong> Comunicación Visual  </h2>
+            
+            <figure class="animated flip"><img src="img/logomovil.png" alt=""></figure>
+          </div>
+          
+          <div class="buttonspage">
+           <div id="contratame"onClick="displayFormContact('block')">CONTACTAR</div>
+           
+          
+          </div>
+
+ 
+
+          </section>
+         	
+
+          <section class="slide" id="perfil"style="display:none;">
+          <div class="quiensoy">
+
+           
+            <span class="indicador desvanecer"><a href="#anclaje2"><figure><img src="img/logo4.png"><h6 class="scroll2">Click</h6></figure></span></a>
+
+           
+             <div class="imagen1">
+
+              
+              <!--parallax sobre mí-->
+              <div id="anclaje2" class="parallax "><figure><img class="blur" src="img/fondo-primerapersona.png"></figure>
+               
+                  
+                  <div class="persona animado">
+                    <div class="scroll">
+                 </div>
+                 <figure><img src="img/foto-primerapersona.png"></figure>
+        
+                
+
+
+
+
+                  </div>
+              
+              </div>
+                
+                <article class="texto texto2 animado"><h4>Sobre mí</h4><p>!Hola soy Andrés Arévalo Durán ¡como profesional en comunicación visual mi principal objetivo es transmitir asertivamente los mensaje que desea difundir el cliente, de manera creativa llegar a impactar un público objetivo por medio de estrategias basadas en investigación de nicho, para dar como resultado la creación de contenidos multimedia idóneos y eficaces.</p>
+
+
+                  </article>
+              
+           <div class="contenedorpaisaje animado">
+              <div class="parallax animado cuadrar animado"><figure><img src="img/paisaje-primerapersona.png"></figure>
+                </div>
+                <article class="texto  texto3 animado "><h4>Perfil Humano</h4><p>Amante del deporte y la naturaleza, la mayor parte de mí tiempo libre lo dedico al gimnasio y al ciclismo, aficionado al cine de ficción y a la obra de Vincent Willem van Gogh, con la meta de vivir nuevas experiencias y conocer nuevos lugares y personas, preparado para nuevos retos.<br><br></p></article>
+</div>
+
+
+             
+              </div>
+
+
+           </div>
+
+
+              
+            
+            
+          
+
+
+            
+          </section>
+
+          <section class="slide" id="Habilidades"style="display:none;"> 
+            <!--barra de progreso-->
+            <div class="logoad"><figure class="animated jackInTheBox"><img src="img/logomovil3.png"></figure></div>
+
+           <div class ="centrar">
+           <div class="contenedor">
+              <h1 class="animated bounce"> Habilidades Técnicas </h1>
+
+
+              <li>
+              <h3>Photoshop <strong class="animated zoomInLeft">85%</strong></h3><span class="bar"><span class="Photoshop"></span></span>
+              </li>
+
+               <li>
+              <h3>Illustrator <strong class="animated zoomInLeft">85%</strong></h3><span class="bar"><span class="Illustrator"></span></span>
+              </li>
+
+               <li>
+              <h3>After_Effects <strong class="animated zoomInLeft">85%</strong></h3><span class="bar"><span class="AfterEffects"></span></span>
+              </li>
+
+               <li>
+              <h3>Html5 <strong class="animated zoomInLeft">60%</strong>  </h3><span class="bar"><span class="html"></span></span>
+              </li>
+
+               <li>
+              <h3>Css <strong class="animated zoomInLeft">50%</strong></h3><span class="bar"><span class="Css"></span></span>
+              </li>
+
+               <li>
+              <h3>Blender <strong class="animated zoomInLeft">40%</strong></h3><span class="bar"><span class="blender"></span></span>
+              </li>
+
+            </div>
+
+
+
+            <div class="contenedor">
+              <h1 class="animated bounce"> Habilidades Personales </h1>
+              <li>
+              <h3>Creatividad <strong class="animated zoomInLeft">90%</strong></h3><span class="bar"><span class="creatividad"></span></span>
+              </li>
+
+               <li>
+              <h3>Trabajo_en_Equipo <strong class="animated zoomInLeft">80%</strong></h3><span class="bar"><span class="trabajo"></span></span>
+              </li>
+
+               <li>
+              <h3>Dedicación <strong class="animated zoomInLeft">90%</strong></h3><span class="bar"><span class="dedicacion"></span></span>
+              </li>
+
+               <li>
+              <h3>Comunicación <strong class="animated zoomInLeft">80%</strong>  </h3><span class="bar"><span class="comunicacion"></span></span>
+              </li>
+
+               <li>
+              <h3>Compromiso <strong class="animated zoomInLeft">100%</strong></h3><span class="bar"><span class="compromiso"></span></span>
+              </li>
+
+              
+
+                   
+             </div>
+           
+
+            
+          </section>
+         	
+
+
+
+          <section class="slide" id="Portafolio"style="display: none;">
+            <!--botones portafolio-->
+            <div class="container">
+
+              <div class="row ">
+                <div class="col-12">
+                  <div class="card-columns">
+                    
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/logo-barrro.png" />
+                        <div class="texto"><h5>Logotipo Corporación Barro colorado</h5></div>
+                      </div>
+                    </div>
+
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/barrocolorado.png"  />
+                        <div class="texto"><h5>Contenido para redes sociales, Corporación Barro Colorado.</h5>
+                      </div>
+                    </div>
+
+                    
+
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/evoliuciontigre.png"/>
+                        <div class="texto"><h5>Propuesta para marca de ropa deportiva</h5>
+                      </div>
+                    </div>
+
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/tigre1Mockup.png"  />
+                        <div class="texto"><h5>Aplicación marca deportiva Tiger.</h5>
+                      </div>
+                    </div>
+
+
+
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/marca4.png" />
+                        <div class="texto"><h5>Logotipo Sabor Suizo</h5>
+                      </div>
+                    </div>
+
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/sabor.jpg"  />
+                        <div class="texto"><h5>Identidad visual</h5>
+                      </div>
+                    </div>
+
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/ilustracion4.png"/>
+                        <div class="texto"><h5>Contenido Redes Sociales</h5>
+                      </div>
+                    </div>
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/ilustracion3.png"/>
+                        <div class="texto"><h5>Contenido Redes Sociales</h5>
+                      </div>
+                    </div>
+
+                   
+
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/logobiciloc.png"/>
+                        <div class="texto"><h5>Logotipo aplicativo </h5>
+                      </div>
+                    </div>
+
+
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/afiche.png"/>
+                        <div class="texto"><h5>Aplicación Biciloc</h5>
+                      </div>
+                    </div>
+                    
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/marca3.jpg"/>
+                        <div class="texto"><h5>Logo pre-entreno.</h5>
+                      </div>
+                    </div>
+
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/toro.png"/>
+                        <div class="texto"><h5>Aplicación pre-entreno.</h5>
+                      </div>
+                    </div>
+
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/drlogistica.png"/>
+                        <div class="texto"><h5>Logotipo DR Gestión Logística.</h5>
+                      </div>
+                    </div>
+
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/vaso.png"/>
+                        <div class="texto"><h5>Aplicación logotipo DR Gestión Logística.</h5>
+                      </div>
+                    </div>
+
+
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/pastel.png"/>
+                        <div class="texto"><h5>Logo pasteleria.</h5>
+                      </div>
+                    </div>
+
+                    <div class="card-container">
+                      <div class="card">
+                        <img class="grid-item" src="img/dos.png"/>
+                        <div class="texto"><h5>Aplicación Logo pasteleria</h5>
+                      </div>
+                    </div>
+
+
+                    
+
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              
+              
+    
+            </div>
+
+
+            
+                <!--final enlaces fotografias  portafolio-->
+
+
+
+
+       <!----------------------------------------------------portafolio------------------------------------------------------------>
+
+
+          </section>
+         	
+
+
+
+
+
+
+
+         <section class="slide1" id="Contactenos"style="display: none;">
+
+           <h1 class="animated bounceIn">Animaciónes</h1>
+
+          <div class="videos">
+
+
+         <div> 
+
+         <iframe width="340" height="250" src="https://www.youtube.com/embed/QV6yepdUuRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+           <div>
+         <iframe width="340" height="250" src="https://www.youtube.com/embed/gQlgjqzVvW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+           <div>
+         <iframe width="340" height="250" src="https://www.youtube.com/embed/sa1IBHVFDGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
+         <div>
+         <iframe width="340" height="250" src="https://www.youtube.com/embed/B5BYLiqwgA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+         <div>
+         <iframe width="340" height="250" src="https://www.youtube.com/embed/sZhkVZ-pj88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
+
+         <div>
+          <iframe width="340" height="250" src="https://www.youtube.com/embed/622h_TpVpEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+     
+     
+
+
+
+       </div>
+         <div class="animacionimg"></div>
+
+
+       
+        </section>
+
+
+         <!--hoja de vida prueba inicio-->
+         
+
+         <section class="slide" id="curriculum"style="display: none;">
+    
+    <!--banner inicio parallax-->
+    <article class="contenedorbanner1">
+    <div class="banner1 "></div>
+
+ 
+     <div class="banner_parallax"><img src="img/banner2.png" alt="imagen logotipo"></div>
+     
+    
+
+
+     <div class="fotoperfil"><figure><img src="img/perfil2.png" alt="foto de perfil"></figure></div>
+    </article> 
+
+
+    
+    
+    <!--banner fin parallax-->
+<section class="contenedor">
+  
+  <div class="nombre"><h1>Andrés Arévalo Durán<br>Diseñador Visual</h1>
+    </div>
+    
+    <article class="formacion">
+      <h2>Perfil</h2>
+      <p class="animado">Profesional en diseño visual con experiencia en la elaboración de contenidos multimedia para redes sociales, conocimiento en procesos para la creación de identidad visual y corporativa, edición y postproducción de video, creación de motion Graphics, rediseño de marca Rebranding, branding creación de marca, retoque fotográfico, edición de fotografía, aplicación de Mockus 2d y 3d, diseño editorial, maquetación web, conocimiento en marketing digital.</p>
+
+
+    </article>
+
+    <article class="formacion"><h2>Formación Académica</h2>
+    <p class="animado">Profesional en Diseño Visual, Tecnólogo en Diseño para Proyectos Web,
+Técnico Profesional en produccion de piezas Multimedia,
+Diseño e Integración de Multimedia (Sena),
+Técnico en Diseño Gráfico Publicitario,
+Diplomado Campañas Marqueting,
+After Effects: Animación 2D de infografías,
+Animación de Personajes en After Effects.
+Html y Css 100 horas, Javascript 50 horas.</p>
+    </article>
+    
+    <article class="formacion experiencia"><h2>Experiencia Laboral</h2>
+
+      <h4>Barro Colorado<span class="icon-arrow-down"></span></h4>
+        <span class="parrafo">Contenido para redes,fotografia, Edición de video .
+
+</span>
+
+      
+      <h4>Sabor Suizo<span class="icon-arrow-down"></span></h4>
+      
+        <span class="parrafo">Rediseño de marca.<br> Creación de imagotipo.<br> Creación de contenido para redes sociales.<br> Identidad de marca.<br> Imagen de marca.<br> manual de imagen corporativa. <br>Edición de video. <br>Contenido corporativo.<br> Marketing digital.
+
+        (practica).<br> 
+        Empresa dedicada a la distribucion de insumos para  comidas rapidas, 
+      fue creada en 1994. Se ralizo un proceso de investigacion de la conpetencia para generar una imagen corporativa adecuada.</span>
+      
+      <h4>DR Gestión Logística<span class="icon-arrow-down"></h4>
+        <span class="parrafo">Creación de logotipo.<br> Elaboración de sitio web.
+          <br>Micro empresa enfocada en todo lo relacionado con importacion y exportacion expertos en Zonas Francas.</span>
+      
+      <h4>YMCA<span class="icon-arrow-down"></h4>
+        <span class="parrafo">Diseño editorial, maquetación para elaboración de folletos institucionales.
+
+</span>
+      
+    </article>
+    
+    <article class="contactos2">
+      <h2>Contacto</h2>
+      
+      <a href="mailto:andresadgrafico@outlook.com"><figure><img src="img/email.svg"></figure><p>Imail:andresadgrafico@outlook.com</p></a>
+
+      <a href="tel:573195596375"><figure><img src="img/whatsapp.svg"></figure><p>Contacto:3195596375</p></a>
+     
+    </article>
+    
+    <article class="descargar"><a href=""><h2>Descargar Currículum</h2></a></article>
+
+    
+<div class="footer"> 
+  
+
+  <h2>Portafolio</h2>
+  <a href="https://www.instagram.com/andresad3012/?hl=es-l "target="_blank"><figure><img src="img/instagram.svg"></figure></a>
+
+<a href="https://www.behance.net/andresad300072"target="_blank"><figure><img src="img/behance.svg"> </figure></a>
+
+</div>
+<br><br><br>
+</section>
+
+</section><!--hoja de vida prueba fin-->
+
+
+
+ 
+         
+
+  
+
+
+    <!--formlario de contacto-->
+
+    <div id="contact_form">
+      <form action="contact.php" id="form1" name=
+      "form1" method="post">
+
+      <div id="close_form" onClick="displayFormContact('none')"></div>
+      <figure id="logo_mensaje"><img src="
+        iconos/mail.png" alt=""></figure>
+        <P>Contactar</P>
+
+        <input type="text" id="name" name="name
+        " placeholder="Tu Nombre">
+
+        <input type="text" id="email" name="mail
+        " placeholder="Tu Email">
+
+        <textarea name="Mensaje" id="mensaje"
+        placeholder="Mensaje"></textarea>
+      
+      <input type="Submit" name="Submit" 
+      id="button" value="ENVIAR"/> 
+    </form>
+    <div class="datos">
+      <a href="mailto:andresadgrafico@outlook.com">andresadgrafico@outlook.com</a>
+     <a href="tel:3195596375"> <span class="icon-whatsapp"></span>+573195596375</a> </div>
+    </div>
+
+    <!--cohete formulario de contacto-->
+    
+    <div id="contacto_boton" onClick="displayFormContact('block')"></div>
+
+    <footer>
+      
+      <div class="rrss" > 
+        <a href="https://www.instagram.com/andresad3012/" target="blank" ></a>
+        <a href="#"></a>
+        <a href="https://www.behance.net/andresad300072/" target="blank"></a>
+        <a href="#"></a>
+      </div>
+      <p>© 2020 All rights reserved | Privacity Policy. andresadgrafico@outlook.com</p>
+
+    </footer>
+         
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160292722-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-160292722-1');
+</script>
+
+
+<script>
+/*menu acordeon*/
+  $(document).ready(function(){
+    $('.parrafo').hide();
+    $('h4').on('click', function(){
+      $(this).next('.parrafo').slideToggle('slow').siblings('.parrafo:visible').slideUp('fast')
+      
+
+    });
+
+});
+
+
+
+/* fin menu acordeon*/
+	alertSize();
+	function alertSize() {
+  
+  var myWidth = 0, myHeight = 0;
+  if( typeof( window.innerWidth ) == 'number' ) {
+    //No-IE
+    myWidth = window.innerWidth;
+    myHeight = window.innerHeight;
+  } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+    //IE 6+
+    myWidth = document.documentElement.clientWidth;
+    myHeight = document.documentElement.clientHeight;
+  } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+    //IE 4 compatible
+    myWidth = document.body.clientWidth;
+    myHeight = document.body.clientHeight;
+  }
+  
+
+
+    var display;
+		var card_menu = document.getElementById("card_menu");
+		display = card_menu.style.display;
+		if (myWidth<767){
+			card_menu.style.display = "none";
+		}
+		else{ 
+			card_menu.style.display = "block"
+
+		}
+   
+   function navSection(nav){
+    var sections = new Array(6);
+  sections[0]="inicio";
+  sections[1]="perfil";
+  sections[2]="Habilidades";
+  sections[3]="Portafolio";
+  sections[4]="Contactenos";
+  sections[5]="curriculum";
+  
+  var search;
+  var show;
+ 
+  for (var i=0; i<6; i++){
+  search = document.getElementById(sections[i]);
+  search.style.display="none"; 
+   
+   if (sections[i] == nav){
+      search.style.display="block";
+    } 
+   }
+
+}
+
+
+
+
+
+}
+	function displayMenu(){
+		var display;
+		var card_menu = document.getElementById("card_menu");
+		display = card_menu.style.display;
+
+		if (display == "none"){
+			card_menu.style.display = "block"
+		}
+		else{
+			card_menu.style.display = "none";
+		}
+
+}
+/* navegacion barra superior*/
+ 
+ function navSection(nav){
+   var sections = new Array(5);
+  sections[0]="inicio";
+  sections[1]="perfil";
+  sections[2]="Habilidades";
+  sections[3]="Portafolio";
+  sections[4]="Contactenos";
+   sections[5]="curriculum";
+  var search;
+  var show;
+
+  for (var i=0; i<6; i++){
+      search = document.getElementById(sections[i]);
+      search.style.display = "none";
+
+       if (sections[i] == nav){
+       search.style.display = "block";  
+      
+       }
+       
+
+  } 
+  
+}
+/*navegacion barra lateral<>*/
+
+function displaySection(nav){
+  var sections = new Array(6);
+
+  sections[0]="inicio";
+  sections[1]="perfil";
+  sections[2]="Habilidades";
+  sections[3]="Portafolio";
+  sections[4]="Contactenos";
+  sections[5]="curriculum";
+  
+  var search;
+  var show;
+  
+  for (var i=0; i<6; i++){
+    search = document.getElementById(sections[i]);
+    show = search.style.display; 
+      
+
+      if(show=="block"){
+        search.style.display="none";
+          if (nav=="next"){
+          i++;
+          if (i>5) i=0;
+
+      }
+      if (nav =="prev"){
+        i--;
+        if (i<0) i = 5;
+      }
+
+      search = document.getElementById(sections[i]);
+      search.style.display = "block";
+      break;  
+      
+    }
+
+  }
+
+}
+
+function displayFormContact(status){
+  var form =document.getElementById("contact_form");
+  form.style.display = status;
+}
+
+</script>
+<script src="js/pruebaparrallax.js"></script>
+<script src="js/aparecer.js"></script>
+<script src="js/desvanecer.js"></script>
+<script src="js/blur.js"></script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+

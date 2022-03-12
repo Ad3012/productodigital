@@ -1,0 +1,1374 @@
+
+
+body{font-size; 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	background: #1d1d1d;
+     position: relative;
+     width: 100%;
+
+   
+}
+
+
+header{
+	width: 100%;
+	height: 35px;
+	background-color: rgba(255, 129, 0, 0.9);
+
+
+}
+
+header h1{
+	display: none;
+}
+
+header h1 a{
+	color: #ffa852;
+	font-weight: lighter;
+} 
+/*tarjeta del movil*/
+header nav .ioMenuMovil{
+	height: 35px;
+	width: 40px;
+	cursor: pointer;
+	line-height: 40px;
+	margin: 0px 0px 0px 10px; 
+	padding: 2px;
+}
+
+header nav .ioMenuMovil img{
+	width:100%;
+}
+header nav #card_menu{
+	display: none;
+	position: relative;
+	width: 250px;
+	background: rgba(29,29,29);
+	top: -40px;
+	left: 0px;
+	border-right: 1px solid #ffa850; 
+	z-index: 999;
+	padding-bottom: 40px;
+
+	} 
+
+
+
+header nav #card_menu #logo_menu{
+	
+	height: 100px;
+	width: 80%;
+	margin: 100px 0px;
+	margin-left: 10%;
+	margin-bottom:0px;
+}
+
+
+
+
+
+header nav #card_menu #logo_menu img{
+	top: 140px;
+	width: 100%;
+}
+/*ojo menu lateral*/ 
+header nav #card_menu  ul{
+	margin-top: 40px;
+
+}
+
+header nav #card_menu  ul li{
+	margin-top: 20px;
+	list-style: none;
+	font-size: 1.6em;
+	line-height: 35px;
+	
+
+}
+header nav #card_menu  ul li a{
+    text-decoration: none;
+    color:white;
+
+
+
+
+	}
+
+
+header nav ul li a{
+	 border-left: unset 3px tomato !important;
+	 z-index: 1001;
+
+}
+
+	header nav ul li a:hover{
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+	} 
+
+
+/*botones laterares configuracion*/
+header #prev_section,
+header #next_section{
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	margin: 5px;
+	position: absolute;
+	top: 0px;
+}
+
+header #next_section{
+	right: 45px;
+
+}
+header #prev_section{
+	right: 10px;
+}
+
+header #prev_section img,
+header #next_section img{
+width:80%;
+top: 0px;
+left: 2Px;
+position: relative;
+}
+
+
+ /*paginas del sitio navegacion botones2*/
+#slider{
+ 	width: 100%;
+ 	position:relative;
+ 	height:600px;
+ 	top: 0px;
+ 	
+}
+
+#slider section.slide{
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+
+
+#slider #inicio{
+	background: #1d1d1d;
+	font-family:'Open Sans Condensed';
+	position: relative;
+	text-align: center;
+	padding-bottom: 50px;
+	top: 0px;
+	
+}
+
+
+#slider #inicio .mainanimation{
+	width: 80%;
+	margin-left: 10%;
+	min-height: 120%;
+	position: absolute;
+}
+
+
+
+#slider #inicio .mainlogo{
+	background:none;
+	position: relative;
+	width: 50vw;
+	margin-left: 20vw;
+	min-height: 500px;
+	width: 200px;
+    margin: auto;
+
+	
+}
+
+
+	#slider #inicio .buttonspage > *{
+		width: 70px;
+		text-align: center;
+
+		
+
+}
+
+
+
+#slider #inicio .mainlogo h2{
+	font-size: 1.5em;
+	padding-top: 40px;
+	color: white;
+	font-weight: lighter;
+	line-height: 70px;
+	display: block; 
+
+
+	
+	
+}
+
+#slider #inicio .mainlogo strong {
+	font-size: 3.4em;
+	display: block;
+	
+	
+}
+#slider #inicio .mainlogo figure,
+#slider #inicio .mainlogo figure img{
+	width: 100%;
+	margin: 0px;
+	
+}
+#slider #inicio .buttonspage{
+	width: 100%;
+	text-align: center;
+}
+
+#slider #inicio .buttonspage > *{
+	top: 60px;
+	background:rgba(255,129,0,0.0);
+	display: inline-block;
+	width: 80px;
+	color:white; 
+	padding: 10px;
+	border-radius:30px 0px 30px 0px;
+	border: 0.5px rgba(255,168,82,0.3) inset;
+	cursor: pointer;
+    position: relative;
+    font-size: 0.9em;
+    text-decoration: none;
+
+}
+
+ #contratame:hover{
+ 	  color: #ffa852;
+ 	  transition-duration: 0.5s;
+ 	  transform: scale(1.1);
+ 	  filter: contrast(2);
+
+	
+
+}
+
+	
+
+/*Sobre mí*/
+
+
+#slider #perfil .quiensoy{
+	height: 100vh;
+	width: 100%;
+
+	line-height: 27px;
+	
+
+
+	
+
+	
+}
+
+.quiensoy .imagen1 p{
+	margin-top: 5px !important;
+}
+/*---------------------------------foto sobre mí-------------------------------*/
+
+
+
+
+.imagen1{
+	position: relative;
+	background-image: url(../img/banner3.png);
+
+}
+
+
+
+
+/*paisaje */
+ 
+	
+.quiensoy .indicador{
+	width: 100%;
+	
+	margin: auto;
+}
+
+
+
+ .indicador figure{
+	
+  width: 75px;
+	
+	height: 75px;
+	
+	
+	z-index: 11;
+	position: absolute;
+	
+  top: 0px ;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  
+  
+	
+} 
+
+
+
+
+ .indicador figure img{
+	margin: auto;
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+}
+
+.indicador figure img{
+	filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 1));
+}
+
+.imagen1 .parallax{
+
+	width: 100%;
+	position: relative;
+
+	
+
+
+}
+.imagen1 .parallax figure{
+	padding:0px;
+	margin: 0px;
+	width: 100%;
+}
+.imagen1 .parallax figure img{
+	width: 100%;
+
+}
+
+.imagen1 .parallax .persona{
+	position: absolute;
+	width: 100%;
+	top: 0px;
+}
+
+
+.imagen1 .cuadrar{
+	margin-top: -24px;
+}
+/*texto foto persona*/
+
+.imagen1 .texto{
+	margin-top: -13px;
+	width: 100%;
+	box-sizing: border-box;
+	background: white;
+	text-align: left;
+	font-size: 1.5em;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.imagen1 .texto h4{
+	font-size: 1.6;
+
+	background-color: rgba(255, 129, 0, 0.9);
+	width: 100% !important;
+	height: 30px;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 10px;
+	box-shadow: 2px 2px 3px rgba(256, 129, 0, 0.4);
+	color:black;
+	padding-bottom: 0px;
+	
+}
+
+.imagen1 .texto p{
+	padding: 15px;
+	margin-top: -20px;
+	box-sizing: border-box;
+
+	
+}
+
+
+
+
+
+
+
+/*fin paisaje*/
+
+
+.imagen1 .imagenpaisaje{
+
+	display: none;
+}
+
+
+.imagen1  .stilosflecha img{
+	display: none;
+}
+
+
+
+
+/*contenido grafico identidad*/
+
+
+
+	
+/*texto corrido identidad*/
+#slider #perfil .textoidentidad{
+	position: absolute;
+	font-size: 1.4em;
+	text-align: left;
+	color: black;
+	margin: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	background: white;
+	width: 100%;
+	top: 175px;
+
+
+}
+
+#slider #perfil .textoidentidad h4{
+	background:#ff8100;
+	width: 180px;
+	height: 30px;
+	margin-bottom: -9px;
+	text-align: center;
+	margin-top: 10px;
+	box-shadow: 0px 3px 3px  black;
+	color:black;
+	border-radius: 0px 20px 0px 20px;
+	margin: auto;
+
+}
+
+
+
+
+
+/*contenido de habilidades */
+
+
+
+
+/*contenidos portafolio*/
+
+
+#slider .botones1{
+	width: 80%;
+	position: relative;
+	margin: auto;
+	padding:20px;
+	box-sizing: border-box;
+	top: 20px;
+	 
+}
+
+
+#slider .botones1 ul{
+
+	display: flex;
+	flex-wrap: wrap;}
+
+
+#slider .botones1 ul li{
+	width: 100px;
+	list-style: none;
+	margin: auto;
+	padding: 10Px;
+	
+}
+
+
+#slider .botones1 ul li a{
+	display: flex;
+	background: rgba(255,129,0,0.1);
+     text-decoration: none;
+     margin: 5px 10px;
+     font-size: 1em;
+     color: white;
+	box-sizing: border-box;
+	justify-content: space-around;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 10%;
+	
+		
+
+
+}
+
+#slider .botones1 a:hover {
+	transition: 1s; 
+color: #ff8100;
+text-decoration:line-through;
+font-size: 1.3em;
+}
+
+
+
+	
+
+
+
+
+
+/*estilos del modal*/
+.modal{
+	display: none;
+
+}
+
+
+
+
+
+/*estilo de cerrar x*/
+#slider .cerrar {
+	display: block;
+	width: 28px;
+	height: 28px;
+	margin: 10px auto;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	font-size: 27px;
+	line-height: 20px;
+	border-radius:50px;
+	border: 0.6px white solid;
+	background:#ff8100;
+	position: relative;
+
+
+}
+
+	
+	
+
+
+/*contactar*/
+#slider #Contactenos{
+	padding-top: 100px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	margin: auto;
+	background: rgba(29,29,29,0.2);
+
+	
+
+
+
+
+}
+#slider  .videos{
+	top: 20px;
+	width:70%;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	margin: auto;
+	background: rgba(0,0,0,0.2);
+	justify-content: center;
+	border-radius: 5px;
+	max-width: 100%;
+
+
+
+	
+
+}
+#slider #Contactenos .videos iframe{
+	width: 100%;
+	border: 0.1em inset rgb(240,240,240);
+	border-radius: 5%;
+		padding: 5px;
+		box-sizing: border-box;
+		margin: 10px;
+		max-width: 100;
+
+	
+
+
+
+}
+#slider #Contactenos h1{
+	width: 100px;
+	border-radius: 5px;
+	background:rgba(0,0,0,0.5);
+	margin: auto;
+	color: white;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 1.5em;
+}
+
+#Contactenos .animacionimg{
+
+	
+display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/*div contactar*/
+
+#contact_form{
+	position: absolute;
+	right: 0px;
+	top:  0px;
+	background:#ff8100;
+	width: 232px;
+	height: 100%;
+	z-index: 1500;
+	display: none;
+	box-sizing: border-box;
+
+	
+}
+
+#contact_form #close_form{
+	position: relative;
+	width: 12px;
+	height: 12px;
+	left: 80%;
+	top: 100px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: -10px;
+	
+ 
+
+
+
+
+}
+
+#contact_form .datos{
+	background: rgba(255,168,82,0.2);
+	width: 100%;
+	box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+
+
+}
+#contact_form .datos a{
+	filter: opacity(0.7);
+	text-align: center;
+
+	font-size: 1em;
+	position: relative;
+	padding: 10px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #1d1d1d;
+	margin-left: 25px;
+	font-weight: bold;
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+  padding-left: 10px;
+  color: green;
+
+
+ }
+ #contact_form #close_form:hover{
+ 	cursor: pointer;
+ }
+
+
+
+
+#contact_form figure{
+	height: 180px
+	width:100%;
+	margin: 0px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#contact_form figure img{
+	height:  50%;
+	margin: 0px;
+}
+#contact_form p{
+	margin: 20px;
+	width: 90%;
+	margin-left: 5%;
+	font-size: 20px;
+}
+ 
+
+
+ #contact_form input,
+ #contact_form textarea{
+ 	display: block;
+ 	margin: 20Px;
+ 	border:none;
+ 	border-bottom: 1px solid black;
+ 	background:rgba(255,129,0,0.1);
+ 	width: 80%;
+ 	margin-left: 5%;
+ 	padding-bottom: 3px;
+ 	margin-bottom: 40px;
+ 	font-weight: bold;
+
+
+}
+
+#contact_form #button{
+	background: #ffa825;
+	color:black;
+	border:1px solid #ffa852;
+	padding: 8px 0px;
+	border-radius: 3px;
+	letter-spacing: 1px;
+	
+}
+
+#contacto_boton{
+	width: 60px;
+	height: 60px;
+	background: #ff8100;
+	border-radius:15Px;
+	z-index: 80;
+	right: 40px;
+	position: fixed;
+	top: 80vh; 
+}
+
+#contacto_boton:hover{
+	cursor: pointer;
+}
+
+#contacto_boton:before{
+font-family: 'icomoon';
+	content: "\e9a5";
+	top: 8px;
+	position: relative;
+	font-size: 2.5em;
+	width: 100%;
+	margin-left: 11px;
+	color:#ffa852;
+}
+
+footer{
+	width: 100%;
+  background-color: rgba(255, 129, 0, 0.9);
+	color: rgb(29,29,29);
+	text-align: center;
+	z-index: 90;
+	height: 150px;
+	position: fixed;
+	bottom: -140px;
+	transition-duration: 0.5s;
+}
+footer:hover{
+	bottom: 0px;
+
+}
+footer:after{
+	font-family: 'icomoon';
+	content:  "\e900";
+	position: absolute;
+	top: 8px;
+	left: 50%;
+	width: 55px;
+	height:55px;
+	margin-left: -40px;
+	margin-top: -35px;
+	color:rgba(29.29.29);
+	background:#ff8100;
+	border-radius: 50%;
+	font-size: 1.9em;
+	transition-duration: 0.5s;
+
+}  
+
+
+
+
+
+
+
+
+footer:hover:after{
+	transform: rotate(180deg);
+	background:rgb(29,29,29);
+	color: grey;
+	animation: none;
+}  
+
+
+
+
+
+footer:after{
+
+
+	-webkit-animation: estrella-par 1s infinite alternate;
+
+}
+
+
+@-webkit-keyframes estrella-par {
+
+	0%{
+		box-shadow: 0 0 0px 0px rgba(255,129,0,0);
+		
+    } 
+
+    100%{ box-shadow: 0 0 0px 5px rgba(255,129,0,0.3);
+    
+    
+    	}
+    }
+
+
+
+footer .rrss{
+	margin-top: 50px;
+	width: 100%;
+	height: 40px;
+
+}
+
+
+footer p{
+    font-size: 0.8em;
+    font-weight: lighter;
+    font-family: 'Quattrocento Sans', sans-serif;
+  
+}
+
+footer .rrss a{
+	width: 60px;
+	height: 40px;
+	display: inline-block;
+	position: relative;
+
+}
+/*iconos redes sociales*/
+
+
+footer .rrss a:before{
+	color: rgb(29,29,29);
+	text-decoration: none;
+	position: absolute;
+	font-size:1.7em;
+	top: 3px;
+	left: 15px;
+	font-family: 'icomoon';
+   
+}
+
+footer .rrss a:nth-child(1):before{
+	content:"\ea92"; 
+}
+footer .rrss a:nth-child(2):before{
+	content: "\eac9"; 
+}
+footer .rrss a:nth-child(3):before{
+	content:"\eaa8"; 
+}
+footer .rrss a:nth-child(4):before{
+	content:"\ead1";
+}
+
+
+
+
+
+@media screen and (min-width: 360px){
+
+
+	
+
+
+
+
+	
+	}
+
+@media screen and (min-width: 600px){
+
+
+
+
+	
+	
+	
+	}
+	
+
+
+
+@media screen and (min-width: 767px){
+
+	
+
+
+
+.imagen1 .persona .scroll{
+
+	
+
+	position: absolute;
+	right: 0px;
+	bottom: 150px;
+	left: 0px;
+	width: 35px;
+	height: 35px;
+	opacity: 1;
+	margin: auto;
+	transform: rotate(45deg);
+	border-right: double 8px rgba(255, 129, 0, 1.0);
+	border-bottom: double 8px rgba(255, 129, 0, 1.0);
+	display: block; 
+	border-radius: 5px;
+	transition: 2s;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ancho de menu encabezado*/ 
+header{
+	height: 50px;
+}
+header h1{
+	display: inline-block;
+	width: 20%;
+	margin: 0px;
+	height: 50px;
+	margin-left: 80px;
+	line-height: 50px;
+	min-width: 300px;
+	
+
+}
+/*enlaces de h1*/
+
+
+header h1 > *{
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	color: #ffa852;
+	font-size: 0.9em;
+	margin: 0px 3px;
+	text-shadow:1px 1px 1px black;
+
+}
+
+header h1 figure{
+	height: 40px;
+	width: 40px;
+	margin: 0px;
+	border-radius: 30%;
+}
+/*tamaño de imagen menu ad*/  
+header h1 figure img{
+	width: 100%;
+
+} 
+
+/*ojo menu lateral reponsive*/
+
+header nav{
+	display: inline-block;
+	vertical-align: middle;
+	width: 55%;
+	position: relative;
+
+	
+}
+
+header nav #showMenu,
+header nav #hideMenu{
+	display: none;
+}
+
+header nav #card_menu{
+	display: inline-block;
+	border: none;
+	background: none;
+	position: relative;
+	top: -6px;
+	width: 100%;
+	text-align: right;
+	padding-bottom: 0px;
+
+} 
+
+header nav #card_menu figure{
+	display: none;
+
+}
+
+header nav #card_menu ul{
+	padding: 0px;
+	margin: 0px;
+	margin-top: -15px;
+
+
+
+}
+
+header nav #card_menu ul li{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0px -2px;
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.7);
+	-webkit-transition: background-color 2s;
+	 border-right: 1px solid rgba(226, 109, 6, 0.9);
+	
+
+}
+header nav #card_menu ul li:hover{
+  background-color: rgba(226, 109, 6, 0.5);
+  border-radius: 5px;
+
+
+ 
+
+}
+
+header nav #card_menu ul li a{
+	color: white;
+ display: block;
+
+}
+/*contactar desplegable*/
+#contact_form{
+	top: 0px;
+	width: 400px;
+	 	border-left:1px solid; 
+}
+
+#contact_form #close_form:before{
+	font-family: 'icomoon';
+	content: "\ea0f";
+	font-size: 15px;
+	}
+
+/*bonones laterales*/ 
+header #prev_section,
+header #next_section{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: #ff8100;
+	right: 40px;
+	z-index: 999;
+	border-radius: 25%;
+}
+header #next_section{
+	top: 190Px;
+}
+
+header #prev_section{
+	top:115px;
+}
+header #prev_section img,
+header #next_section img{
+	width: 60%;
+	top: 5px;
+	left: 8px;
+}
+/*titulo perfil*/
+
+
+#slider #perfil .quiensoy{
+	height: 100vh;
+	top: 0px;
+
+	
+}
+
+
+
+
+ /*fotos sobre mi*/
+
+
+ .cuadrar{
+ 	display: none;
+ }
+
+
+.imagen1 .texto2{
+	width:30%;
+	background-color: rgba(255, 255,255, 0.7);
+	font-size: 1.3em;
+	padding: 25px;
+	box-sizing: border-box;
+	display:inline-block;
+	flex-wrap: wrap;
+	min-width: 250px;
+	margin:   auto;
+	top: 30px;
+	left: 15px;
+	box-shadow: 2px 2px 8px #000;
+
+
+	position: absolute;
+	border-radius: 10px;
+
+
+}
+
+
+.imagen1 .texto2 h4{
+	box-shadow: 2px 2px 3px rgba(100, 100, 100, 0.6);
+	background-color: rgba(100, 100, 100, 0.1);
+	font-size: 1.4em;
+
+
+}
+ .indicador figure{
+	width: 140px;
+	height: 140px;
+	
+}
+
+ .contenedorpaisaje .texto3 h4{
+	background:#6d7c57;
+	font-size: 1.4em;
+	
+	height: 40px;
+	
+	text-align: center;
+	margin-top: 10px;
+	box-shadow: 2px 2px 5px rgba(57, 66, 44, 0.8);
+	color:black;
+	
+	margin: 15px auto;
+	color: white;
+	font-weight: lighter;
+	padding-top: 2px;
+	box-sizing: border-box;
+
+}
+
+
+.imagen1 .texto3{
+	width: 35%;
+	
+	
+	background-color: rgba(109, 124,87, 0.7);
+	font-size: 1.3em;
+	padding: 25px;
+	box-sizing: border-box;
+	display:inline-block;
+	flex-wrap: wrap;
+	width: 30%;
+	margin:   auto;
+	position: relative;
+	left: 15px;
+	top: 40px;
+	border-radius: 10px;
+	color: white;
+	border: outset 1px #6d7c57;
+	box-shadow: 2px 2px 8px  #000;
+
+
+}
+
+.imagen1{
+
+	background-image: url(../img/paisaje2-primerapersona.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	z-index: -2;
+	height: 100vh;
+	
+
+
+
+
+}
+
+
+
+.imagen1 .contenedorpaisaje{
+	width: 100%;
+	background-image: url(../img/paisaje-primerapersona.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-color: transparent;
+	height: 100vh;
+	display: block;
+
+}
+
+
+	
+
+
+
+ /*fin fotos sobre mi*/
+
+
+
+
+/*contenido del perfil fotos y video*/
+
+
+
+
+
+#slider #inicio .mainlogo{
+		width: 249px;
+		left: 50%;
+		margin-left: -135px;
+		top: 45px;
+
+	}
+	#slider #inicio .mainlogo h2{
+	font-size: 1.8em;
+	padding-top: 5px;
+	color: white;
+	font-weight: lighter;
+	line-height: 97px;
+	display: block;
+	
+}
+
+#slider #inicio .mainlogo strong {
+	font-size: 4em;
+	display: block;
+}
+
+	
+	
+
+
+
+
+
+
+
+#slider #inicio .mainlogo figure,
+#slider #inicio .mainlogo figure img{
+	
+margin-top: -10px;
+}
+
+/*portafolio fondos imagenes*/
+
+
+
+
+
+
+
+.uno{ 
+
+	display: inline-flex;
+	padding: 2px;
+	box-sizing: border-box;
+
+}
+
+.uno a {
+	text-decoration: none;
+}
+
+.uno a figure{
+
+	width: 30px;
+	height: 30px;
+	margin: auto;
+}
+
+
+
+	
+
+
+	
+ 
+
+
+#slider #Contactenos .videos{
+	top: 40px;
+	align-items: center;
+}
+
+
+#slider #Contactenos .videos iframe{
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 10px;
+width:  340px;
+max-width: 100%}
+
+.imagen1 .centrar2 img{
+	width: 400px;
+	
+	margin: 50px auto;
+	display: flex;
+	opacity: 0.4;
+
+
+	
+
+
+}
+.blur{
+	opacity: 0;
+	transition-duration: 1s;
+	
+	
+
+}
+
+.blurcero{
+	opacity: 1;
+
+	
+}
+
+
+@media screen and (min-width: 950px){
+
+	
+
+}
