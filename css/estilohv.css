@@ -298,7 +298,7 @@ bottom: 5px;
 
 }
 
-.contenedor .experiencia  h4 .icon-arrow-down .descargar a h2{
+.contenedor .experiencia  h4 .icon-arrow-down{
 	-webkit-animation: resplandor 2s infinite alternate;
 
 }
@@ -330,7 +330,7 @@ bottom: 5px;
 
 	
 	margin: 0px 5px 8px  auto;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	color: #d1cfd1;
 	width: 99%;
 	padding: 5px;
